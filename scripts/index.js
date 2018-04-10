@@ -275,12 +275,18 @@ const render = function() {
 //   f) Inside the callback, add the decorated response into your store using the `addVideosToStore` function
 //   g) Inside the callback, run the `render` function 
 // TEST IT!
-const handleFormSubmit = function() {
-  //fetchVideos(searchValue, function())
-};
 
+const handleFormSubmit = function() { $('#form').submit(event => { 
+  event.preventDefault(); 
+const searchInput = $('#search-term').val(); 
+$('#search-term').val('');
+
+ fetchVideos(searchInput, function (data) {
+   console.log(data); 
+ }
+)}) //fetchVideos(searchValue, function()) };
+}
 // When DOM is ready:
 $(function () {
-  // TASK:
-  // 1. Run `handleFormSubmit` to bind the event listener to the DOM
+  handleFormSubmit(); 
 });
