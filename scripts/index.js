@@ -217,7 +217,6 @@ const fetchVideos = function(searchTerm, callback) {
   $.getJSON(BASE_URL, query, callback);
 };
 
-
 // TASK:
 // 1. Create a `decorateResponse` function that receives the Youtube API response
 // 2. Map through the response object's `items` array
@@ -227,7 +226,14 @@ const fetchVideos = function(searchTerm, callback) {
 // TEST IT! Grab an example API response and send it into the function - make sure
 // you get back the object you want.
 const decorateResponse = function(response) {
+return response.items.map(item => { 
+  const id = item.id.videoId;
+  const title = item.snippet.title;
+  const thumbnail = item.snippet.thumbnails.default;
 
+  return { id, title, thumbnail };
+
+});
 };
 
 
@@ -236,7 +242,8 @@ const decorateResponse = function(response) {
 // 2. Using the object, return an HTML string containing all the expected data
 // TEST IT!
 const generateVideoItemHtml = function(video) {
-
+  return `
+<li data-videoId="${video.id}"> <img src="${video.thumbnail}" /> <p> ${video.title} </p> `; 
 };
 
 // TASK:
