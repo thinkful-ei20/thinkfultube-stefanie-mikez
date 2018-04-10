@@ -21,182 +21,182 @@ const store = {
 };
 
 const data = {
-  "kind": "youtube#searchListResponse",
-  "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/E0EGwHmdn4F7HMqj4ylkUakfJ1w\"",
-  "nextPageToken": "CAUQAA",
-  "regionCode": "US",
-  "pageInfo": {
-   "totalResults": 1000000,
-   "resultsPerPage": 5
+  'kind': 'youtube#searchListResponse',
+  'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/E0EGwHmdn4F7HMqj4ylkUakfJ1w"',
+  'nextPageToken': 'CAUQAA',
+  'regionCode': 'US',
+  'pageInfo': {
+    'totalResults': 1000000,
+    'resultsPerPage': 5
   },
-  "items": [
-   {
-    "kind": "youtube#searchResult",
-    "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/deSjmv-L3Odn_UkrS_7dLb3pmQs\"",
-    "id": {
-     "kind": "youtube#video",
-     "videoId": "hY7m5jjJ9mM"
-    },
-    "snippet": {
-     "publishedAt": "2017-05-31T09:30:02.000Z",
-     "channelId": "UC9obdDRxQkmn_4YpcBMTYLw",
-     "title": "CATS will make you LAUGH YOUR HEAD OFF - Funny CAT compilation",
-     "description": "Cats are amazing creatures because they make us laugh all the time! Watching funny cats is the hardest try not to laugh challenge! Just look how all these cats & kittens play, fail, get along...",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/hY7m5jjJ9mM/default.jpg",
-       "width": 120,
-       "height": 90
+  'items': [
+    {
+      'kind': 'youtube#searchResult',
+      'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/deSjmv-L3Odn_UkrS_7dLb3pmQs"',
+      'id': {
+        'kind': 'youtube#video',
+        'videoId': 'hY7m5jjJ9mM'
       },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/hY7m5jjJ9mM/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/hY7m5jjJ9mM/hqdefault.jpg",
-       "width": 480,
-       "height": 360
+      'snippet': {
+        'publishedAt': '2017-05-31T09:30:02.000Z',
+        'channelId': 'UC9obdDRxQkmn_4YpcBMTYLw',
+        'title': 'CATS will make you LAUGH YOUR HEAD OFF - Funny CAT compilation',
+        'description': 'Cats are amazing creatures because they make us laugh all the time! Watching funny cats is the hardest try not to laugh challenge! Just look how all these cats & kittens play, fail, get along...',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/hY7m5jjJ9mM/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/hY7m5jjJ9mM/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/hY7m5jjJ9mM/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'Tiger FunnyWorks',
+        'liveBroadcastContent': 'none'
       }
-     },
-     "channelTitle": "Tiger FunnyWorks",
-     "liveBroadcastContent": "none"
-    }
-   },
-   {
-    "kind": "youtube#searchResult",
-    "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/_pVbkdlwMUge641HBYKrYT2XHQo\"",
-    "id": {
-     "kind": "youtube#video",
-     "videoId": "kcKM00lmrjQ"
     },
-    "snippet": {
-     "publishedAt": "2018-03-28T12:00:05.000Z",
-     "channelId": "UCKy3MG7_If9KlVuvw3rPMfw",
-     "title": "NO WAY you can WATCH  & NOT LAUGH! - Super FUNNY CATS",
-     "description": "Cats and kittens are simply the best animals, they never fail to make us happy and laugh! This funny cats compilation is simply the best and the hardest try not to laugh challenge ever! Just...",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/kcKM00lmrjQ/default.jpg",
-       "width": 120,
-       "height": 90
+    {
+      'kind': 'youtube#searchResult',
+      'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/_pVbkdlwMUge641HBYKrYT2XHQo"',
+      'id': {
+        'kind': 'youtube#video',
+        'videoId': 'kcKM00lmrjQ'
       },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/kcKM00lmrjQ/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/kcKM00lmrjQ/hqdefault.jpg",
-       "width": 480,
-       "height": 360
+      'snippet': {
+        'publishedAt': '2018-03-28T12:00:05.000Z',
+        'channelId': 'UCKy3MG7_If9KlVuvw3rPMfw',
+        'title': 'NO WAY you can WATCH  & NOT LAUGH! - Super FUNNY CATS',
+        'description': 'Cats and kittens are simply the best animals, they never fail to make us happy and laugh! This funny cats compilation is simply the best and the hardest try not to laugh challenge ever! Just...',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/kcKM00lmrjQ/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/kcKM00lmrjQ/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/kcKM00lmrjQ/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'Tiger Productions',
+        'liveBroadcastContent': 'none'
       }
-     },
-     "channelTitle": "Tiger Productions",
-     "liveBroadcastContent": "none"
-    }
-   },
-   {
-    "kind": "youtube#searchResult",
-    "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/m0cLx-6u-Qe9vi8zdw2HEgmzw0E\"",
-    "id": {
-     "kind": "youtube#video",
-     "videoId": "i-AXImNxCAE"
     },
-    "snippet": {
-     "publishedAt": "2018-03-07T12:36:04.000Z",
-     "channelId": "UCKy3MG7_If9KlVuvw3rPMfw",
-     "title": "Are ORANGE CATS the FUNNIEST CATS? - Super FUNNY COMPILATION that will make you DIE LAUGHING",
-     "description": "Cats are so cute and super funny animals, especially orange cats! They make us laugh all the time and heal our bad mood! This funny cat compilation is the hardest TRY NOT TO LAUGH challenge!...",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/i-AXImNxCAE/default.jpg",
-       "width": 120,
-       "height": 90
+    {
+      'kind': 'youtube#searchResult',
+      'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/m0cLx-6u-Qe9vi8zdw2HEgmzw0E"',
+      'id': {
+        'kind': 'youtube#video',
+        'videoId': 'i-AXImNxCAE'
       },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/i-AXImNxCAE/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/i-AXImNxCAE/hqdefault.jpg",
-       "width": 480,
-       "height": 360
+      'snippet': {
+        'publishedAt': '2018-03-07T12:36:04.000Z',
+        'channelId': 'UCKy3MG7_If9KlVuvw3rPMfw',
+        'title': 'Are ORANGE CATS the FUNNIEST CATS? - Super FUNNY COMPILATION that will make you DIE LAUGHING',
+        'description': 'Cats are so cute and super funny animals, especially orange cats! They make us laugh all the time and heal our bad mood! This funny cat compilation is the hardest TRY NOT TO LAUGH challenge!...',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/i-AXImNxCAE/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/i-AXImNxCAE/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/i-AXImNxCAE/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'Tiger Productions',
+        'liveBroadcastContent': 'none'
       }
-     },
-     "channelTitle": "Tiger Productions",
-     "liveBroadcastContent": "none"
-    }
-   },
-   {
-    "kind": "youtube#searchResult",
-    "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/6jmRaKhqgw-vqRPPmIQPu7t_icg\"",
-    "id": {
-     "kind": "youtube#video",
-     "videoId": "3vDV1F_fngc"
     },
-    "snippet": {
-     "publishedAt": "2018-02-16T15:37:18.000Z",
-     "channelId": "UCKy3MG7_If9KlVuvw3rPMfw",
-     "title": "BIG CATS, SMALL CATS, it doesn't matter, they are ALL FUNNY! - GET READY to LAUGH!",
-     "description": "Big cats, small cats, it doesn't matter, all cats are super cute and funny! This cat compilation is the hardest TRY NOT TO LAUGH challenge ever! Just look how all these big and small cats play,...",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/3vDV1F_fngc/default.jpg",
-       "width": 120,
-       "height": 90
+    {
+      'kind': 'youtube#searchResult',
+      'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/6jmRaKhqgw-vqRPPmIQPu7t_icg"',
+      'id': {
+        'kind': 'youtube#video',
+        'videoId': '3vDV1F_fngc'
       },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/3vDV1F_fngc/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/3vDV1F_fngc/hqdefault.jpg",
-       "width": 480,
-       "height": 360
+      'snippet': {
+        'publishedAt': '2018-02-16T15:37:18.000Z',
+        'channelId': 'UCKy3MG7_If9KlVuvw3rPMfw',
+        'title': 'BIG CATS, SMALL CATS, it doesn\'t matter, they are ALL FUNNY! - GET READY to LAUGH!',
+        'description': 'Big cats, small cats, it doesn\'t matter, all cats are super cute and funny! This cat compilation is the hardest TRY NOT TO LAUGH challenge ever! Just look how all these big and small cats play,...',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/3vDV1F_fngc/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/3vDV1F_fngc/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/3vDV1F_fngc/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'Tiger Productions',
+        'liveBroadcastContent': 'none'
       }
-     },
-     "channelTitle": "Tiger Productions",
-     "liveBroadcastContent": "none"
-    }
-   },
-   {
-    "kind": "youtube#searchResult",
-    "etag": "\"RmznBCICv9YtgWaaa_nWDIH1_GM/7q8vhq-xY7Q0TxEtBWKYbsZPays\"",
-    "id": {
-     "kind": "youtube#video",
-     "videoId": "axgFo7QazQo"
     },
-    "snippet": {
-     "publishedAt": "2018-03-22T12:17:32.000Z",
-     "channelId": "UCKy3MG7_If9KlVuvw3rPMfw",
-     "title": "The FUNNIEST CAT videos - WATCHING WITHOUT LAUGHING is IMPOSSIBLE!",
-     "description": "Cats and kittens are super funny animals and they make us laugh all the time! This funny cats compilation is simply the best and the hardest try not to laugh challenge ever! Just look how all...",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/axgFo7QazQo/default.jpg",
-       "width": 120,
-       "height": 90
+    {
+      'kind': 'youtube#searchResult',
+      'etag': '"RmznBCICv9YtgWaaa_nWDIH1_GM/7q8vhq-xY7Q0TxEtBWKYbsZPays"',
+      'id': {
+        'kind': 'youtube#video',
+        'videoId': 'axgFo7QazQo'
       },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/axgFo7QazQo/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/axgFo7QazQo/hqdefault.jpg",
-       "width": 480,
-       "height": 360
+      'snippet': {
+        'publishedAt': '2018-03-22T12:17:32.000Z',
+        'channelId': 'UCKy3MG7_If9KlVuvw3rPMfw',
+        'title': 'The FUNNIEST CAT videos - WATCHING WITHOUT LAUGHING is IMPOSSIBLE!',
+        'description': 'Cats and kittens are super funny animals and they make us laugh all the time! This funny cats compilation is simply the best and the hardest try not to laugh challenge ever! Just look how all...',
+        'thumbnails': {
+          'default': {
+            'url': 'https://i.ytimg.com/vi/axgFo7QazQo/default.jpg',
+            'width': 120,
+            'height': 90
+          },
+          'medium': {
+            'url': 'https://i.ytimg.com/vi/axgFo7QazQo/mqdefault.jpg',
+            'width': 320,
+            'height': 180
+          },
+          'high': {
+            'url': 'https://i.ytimg.com/vi/axgFo7QazQo/hqdefault.jpg',
+            'width': 480,
+            'height': 360
+          }
+        },
+        'channelTitle': 'Tiger Productions',
+        'liveBroadcastContent': 'none'
       }
-     },
-     "channelTitle": "Tiger Productions",
-     "liveBroadcastContent": "none"
     }
-   }
   ]
- }
+};
 
 // TASK: Add the Youtube Search API Base URL here:
 // Documentation is here: https://developers.google.com/youtube/v3/docs/search/list#usage
@@ -241,7 +241,7 @@ const generateVideoItemHtml = function(video) {
   return `
   <li data-videoId="${video.id}"> 
   <img src="${video.thumbnail}" />
-  <p> ${video.title} </p>
+  <p>${video.title}</p>
   `; 
 };
 
@@ -250,8 +250,8 @@ const generateVideoItemHtml = function(video) {
 // objects and sets the array as the value held in store.items
 // TEST IT!
 const addVideosToStore = function(videos) {
- videos = store.items.val(data);
- console.log(videos);
+  videos = store.items.val(data);
+  console.log(videos);
 };
 
 
@@ -261,7 +261,9 @@ const addVideosToStore = function(videos) {
 // 3. Add your array of DOM elements to the appropriate DOM element
 // TEST IT!
 const render = function() {
-
+  const results = store.videos.map(generateVideoItemHtml);
+  $('.results').append(results);
+  console.log(results);
 };
 
 // TASK:
@@ -278,14 +280,14 @@ const render = function() {
 
 const handleFormSubmit = function() { $('#form').submit(event => { 
   event.preventDefault(); 
-const searchInput = $('#search-term').val(); 
-$('#search-term').val('');
+  const searchInput = $('#search-term').val(); 
+  $('#search-term').val('');
 
- fetchVideos(searchInput, function (data) {
-   console.log(data); 
- }
-)}) //fetchVideos(searchValue, function()) };
-}
+  fetchVideos(searchInput, function (data) {
+    console.log(data); 
+  }
+  );}); //fetchVideos(searchValue, function()) };
+};
 // When DOM is ready:
 $(function () {
   handleFormSubmit(); 
